@@ -80,8 +80,8 @@ public class Alarm extends AndroidNonvisibleComponent
 	}
 
 	@SimpleEvent
- 	public void GoesOff() {
- 		EventDispatcher.dispatchEvent(this, "GoesOff");
+ 	public void Fired() {
+ 		EventDispatcher.dispatchEvent(this, "Fired");
  	}
 
 	@Override
