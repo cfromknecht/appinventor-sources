@@ -586,6 +586,8 @@ public class YaVersion {
   //   instead of a boolean
   public static final int TEXTING_COMPONENT_VERSION = 3;
 
+  public static final int TIMER_COMPONENT_VERSION = 1;
+
   public static final int TINYDB_COMPONENT_VERSION = 1;
 
   // For TINYWEBDB_COMPONENT_VERSION 2:
