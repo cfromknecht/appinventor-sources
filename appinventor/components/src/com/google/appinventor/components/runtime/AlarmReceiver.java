@@ -35,7 +35,7 @@ public class AlarmReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Log.i("Alarm", "onReceive");
 
-        callback.GoesOff();
+        callback.Fired();
      }  
 
 	public void setAlarm(Context context, int end, int interval, boolean repeat) {
