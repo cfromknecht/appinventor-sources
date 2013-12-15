@@ -324,6 +324,9 @@ public class YaVersion {
   //   animation to transition to next activity.
   public static final int ACTIVITYSTARTER_COMPONENT_VERSION = 4;
 
+
+  public static final int ALARM_COMPONENT_VERSION = 1;
+
   // For BALL_COMPONENT_VERSION 2:
   // - The PointTowards method was added (for all sprites)
   // - The heading property was changed from int to double (for all sprites)
